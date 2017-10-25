@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 }
+
+export interface Reason{
+	imgUrl: string;
+	reason: string;
+	description: string
+}
